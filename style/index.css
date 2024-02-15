@@ -1,6 +1,14 @@
+main {
+    display: block;
+}
+
+.hero {
+    margin-bottom: 150px;
+}
+
 body {
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: white;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
 }
