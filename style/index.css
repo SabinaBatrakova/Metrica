@@ -6,11 +6,14 @@ body {
 }
 
 .container {
-    width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1180px;
+    /* width: 1400px;*/
     box-sizing: border-box;
     background-color: #ffffff;
-    padding: 125px;
-    margin: 0 auto;
+    /*padding: 125px;*/
+
 }
 
 h1 {
@@ -50,8 +53,8 @@ h1 {
 }
 
 .description-name {
-    width: 51px;
-    height: 25px;
+    /*width: 51px;
+    height: 25px;*/
     font-size: 18px;
     line-height: 24.59px;
     color: #121212;
