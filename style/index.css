@@ -17,7 +17,6 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1180px;
-    box-sizing: border-box;
     /* width: 1400px;*/
     /*background-color: #ffffff;*/
     /*padding: 125px;*/
@@ -64,6 +63,7 @@ h1 {
 .description-name {
     /*width: 51px;
     height: 25px;*/
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 24.59px;
     color: #121212;
@@ -75,14 +75,15 @@ h1 {
     font-weight: 400;
     font-size: 45px;
     line-height: 61.47px;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     margin-bottom: 30px;
     color: #121212;
     letter-spacing: -0.03em;
 }
 
-a {
+.description-link {
     display: block;
+    margin-bottom: 150px;
     border: 1px solid #AD1818;
     background-color: #AD1818;
     width: 255px;
@@ -98,7 +99,32 @@ a {
     color: white;
 }
 
-a:hover {
+description-link:hover {
     color: white;
     background-color: #AD1818;
+}
+
+.item_img {
+    margin-bottom: 15px;
+}
+
+.item_text {
+    width: 501px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.item_link {
+    width: 127px;
+    margin-left: 2px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
 }
