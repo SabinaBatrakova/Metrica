@@ -17,7 +17,6 @@ header {
 
 .logo-link {
     display: inline-block;
-    /* margin-right: 400px;*/
     width: 127px;
     height: 22px;
     cursor: pointer;
@@ -174,13 +173,13 @@ description-link:hover {
     margin-bottom: 90px;
 }
 
-.section_all_link {
+.section_btn {
     margin-bottom: 150px;
+    min-width: 1150px;
 }
 
 .project__all_link {
     display: block;
-    margin-bottom: 150px;
     width: 100%;
     height: 153px;
     padding-top: 56px;
@@ -201,6 +200,7 @@ description-link:hover {
 
 .section_black {
     width: 100%;
+    min-width: 1180px;
     height: 1844px;
     background-color: black;
 }
@@ -216,6 +216,7 @@ description-link:hover {
 
 .service__img {
     padding-bottom: 15px;
+    min-width: 1150px;
 }
 
 .service__text {
