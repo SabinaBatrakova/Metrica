@@ -86,6 +86,7 @@ h1 {
     width: 1150px;
     height: 500px;
     padding-top: 30px;
+    margin-bottom: 150px;
 }
 
 .hero__text {
@@ -104,7 +105,7 @@ h1 {
 .description {
     width: 1051px;
     height: 518px;
-    margin-top: 150px;
+    /*margin-top: 150px;*/
     letter-spacing: -0.03em;
 }
 
@@ -238,6 +239,7 @@ description-link:hover {
 .section_full_image {
     height: 717px;
     margin: 0 auto;
+    margin-bottom: 150px;
     background-image: url('/photo/Rectangle 10.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -254,4 +256,23 @@ description-link:hover {
     line-height: 40.98px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+}
+
+.title-wrapper {
+    width: 90px;
+    position: relative;
+}
+
+.title-wrapper:before {
+    content: '';
+    bottom: 25px;
+    margin-bottom: 12px;
+    display: block;
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    background-image: url('/photo/Vector.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
