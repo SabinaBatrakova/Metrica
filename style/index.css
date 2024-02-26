@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     display: block;
 }
@@ -231,14 +235,23 @@ description-link:hover {
     margin-bottom: 138px;
 }
 
-/*.section__image {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.bg_img {
+.section_full_image {
     height: 717px;
     margin: 0 auto;
+    background-image: url('/photo/Rectangle 10.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+
+.full__imsge_text {
+    position: absolute;
+    bottom: 60px;
+    width: 443px;
+    height: 82px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
 }
