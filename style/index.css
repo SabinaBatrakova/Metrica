@@ -289,7 +289,7 @@ description-link:hover {
 }
 
 .contact__email {
-
+    display: block;
     margin-bottom: 150px;
     font-size: 60px;
     line-height: 60px;
@@ -308,4 +308,55 @@ description-link:hover {
 .contact__tel:hover {
     text-decoration: underline;
     color: grey;
+}
+
+.footer {
+    display: block;
+}
+
+.section-footer {
+    width: 100%;
+    min-width: 1180px;
+    height: 229px;
+    background-color: black;
+}
+
+.nav__footer {
+    margin: 0 auto;
+    width: 450px;
+}
+
+.nav__footer_link {
+    display: inline-block;
+    padding-top: 60px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav__footer_link:nth-last-child(5) {
+    margin-left: 0px;
+}
+
+.nav__footer_link:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.nav__footer_text {
+    margin-bottom: 30px;
+    text-align: center;
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
 }
