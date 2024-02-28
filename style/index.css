@@ -276,3 +276,36 @@ description-link:hover {
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
+.contact__tel {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact__email {
+
+    margin-bottom: 150px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.contact__email:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.contact__tel:hover {
+    text-decoration: underline;
+    color: grey;
+}
