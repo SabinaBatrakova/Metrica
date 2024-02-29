@@ -4,20 +4,12 @@ html {
 
 header {
     display: block;
+    margin-top: 33px;
 }
 
 .nav-section {
-    margin-top: 33px;
     min-width: 1150px;
     margin-bottom: 70px;
-}
-
-.nav-container {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 1150px;
-    height: 25px;
 }
 
 .logo-link {
@@ -28,16 +20,14 @@ header {
 }
 
 .nav {
-    display: inline-block;
+    float: right;
 }
 
 .nav__link {
-    display: inline-block;
-    margin-left: 60px;
+    margin-left: 58px;
     width: 90px;
-    height: 25px;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     color: #121212;
     text-decoration: none;
@@ -45,7 +35,7 @@ header {
 
 .nav__link:hover {
     text-decoration: underline;
-    color: grey;
+    opacity: 0.5;
 }
 
 main {
@@ -86,14 +76,14 @@ h1 {
     width: 1150px;
     height: 500px;
     padding-top: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 180px;
 }
 
 .hero__text {
     position: absolute;
     width: 430px;
     left: 40px;
-    bottom: 40px;
+    margin-bottom: 40px;
     letter-spacing: -0.03em;
     font-size: 20px;
     font-weight: 400;
@@ -176,7 +166,7 @@ description-link:hover {
 }
 
 .project_box {
-    margin-bottom: 90px;
+    margin-bottom: 87px;
 }
 
 .section_btn {
@@ -226,10 +216,11 @@ description-link:hover {
 }
 
 .service__text {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
     font-size: 30px;
     line-height: 40.98px;
     color: #FFFFFF;
+    letter-spacing: -0.02em;
 }
 
 .service:last-child {
@@ -239,7 +230,7 @@ description-link:hover {
 .section_full_image {
     height: 717px;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 188px;
     background-image: url('/photo/Rectangle 10.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,7 +273,7 @@ description-link:hover {
     margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     color: #121212;
     text-decoration: none;
     cursor: pointer;
@@ -290,7 +281,7 @@ description-link:hover {
 
 .contact__email {
     display: block;
-    margin-bottom: 150px;
+    margin-bottom: 162px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
@@ -329,25 +320,24 @@ description-link:hover {
 .nav__footer_link {
     display: inline-block;
     padding-top: 60px;
-    margin-bottom: 90px;
+    margin-bottom: 87px;
     margin-left: 20px;
     width: 90px;
-    height: 25px;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     letter-spacing: -0.03em;
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.nav__footer_link:nth-last-child(5) {
+.nav__footer_link:last-child {
     margin-left: 0px;
 }
 
 .nav__footer_link:hover {
     text-decoration: underline;
-    color: grey;
+    opacity: 0.5;
 }
 
 .nav__footer_text {
