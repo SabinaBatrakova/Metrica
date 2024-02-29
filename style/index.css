@@ -231,7 +231,7 @@ description-link:hover {
     height: 717px;
     margin: 0 auto;
     margin-bottom: 188px;
-    background-image: url('/photo/Rectangle 10.png');
+    background-image: url("../photo/Rectangle 10.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -262,7 +262,7 @@ description-link:hover {
     position: absolute;
     width: 13px;
     height: 22px;
-    background-image: url("../photo/Rectangle 10.png");
+    background-image: url("../photo/Vector.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
