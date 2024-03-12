@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Checkpoint#1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Metrica</title>
+    <link rel="icon" href="photo/М.png" type="image/png" />
     <link rel="stylesheet" href="style/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
-
 </head>
 
 <body>
-    <header class="header">
+    <!--<header class="header">
         <section class="nav-section">
             <div class="nav-container container   ">
                 <a href="#" class="logo-link">
@@ -27,20 +29,20 @@
             </div>
         </section>
     </header>
-
-    <main class="main">
+-->
+    <class="main">
         <section class="hero">
             <div class="container">
-                <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-                <div class="hero__section">
-                    <img src="photo/Rectangle 1.png" alt="Вид: кресло,цветок,стол">
+                <h1 class="hero__title">Современные и стильные интерьеры для комфортной жизни</h1>
+                <div class="hero__image">
+                    <!--<img src="photo/Rectangle 1.png" alt="Вид: кресло,цветок,стол">-->
                     <p class="hero__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
                         разработкой и
                         реализацией дизайн-проектов</p>
                 </div>
 
                 <div class="description">
-                    <h2 id="about us" class="title">О НАС</h2>
+                    <h2 id="about us" class="description-title">О НАС</h2>
                     <p class="description__text">Студия основана в 2011 году. Полностью отдаемся проектированию и
                         реализации
                         интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим
@@ -54,55 +56,90 @@
 
         <section class="section_projects">
             <div class="container">
-                <h2 id="projects" class="title">ПРОЕКТЫ</h2>
+                <h2 id="projects" class="project-title">ПРОЕКТЫ</h2>
                 <ul class="project">
                     <li class="project_box">
-                        <img class="project__img" src="photo/Rectangle 6.png" alt="Большой диван">
+                        <picture>
+                            <source media="(max-width:500px)" srcset="photo/Rectangle6_mobile.png" />
+                            <source media="(max-width:1199px)" srcset="photo/Rectangle6_tab.png" />
+                            <img class="project__img" src="photo/Rectangle 6.png" alt="Большой диван">
+
+                        </picture>
                         <p class="project__text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
                         <a href="#" class="project__link">Подробнее →</a>
                     </li>
 
                     <li class="project_box">
-                        <img class="project__img" src="photo/Rectangle 7.png"
-                            alt="Ракурс на комнату с диваном,столом, и ТВ">
+                        <picture>
+                            <source media="(max-width:500px)" srcset="photo/Rectangle7_mobile.png" />
+                            <source media="(max-width:1199px)" srcset="photo/Rectangle7_tab.png" />
+                            <img class="project__img" src="photo/Rectangle 7.png"
+                                alt="Ракурс на комнату с диваном,столом, и ТВ">
+                        </picture>
                         <p class="project__text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
                         <a href="#" class="project__link">Подробнее →</a>
-
                     </li>
                     <li class="project_box">
-                        <img class="project__img" src="photo/Rectangle 8.png" alt="Двухэтажная квартира">
+                        <picture>
+                            <source media="(max-width:500px)" srcset="photo/Rectangle8_mobile.png" />
+                            <source media="(max-width:1199px)" srcset="photo/Rectangle8_tab.png" />
+                            <img class="project__img" src="photo/Rectangle 8.png" alt="Двухэтажная квартира">
+                        </picture>
                         <p class="project__text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
                         <a href="#" class="project__link">Подробнее →</a>
                     </li>
                 </ul>
             </div>
             <div class="section_btn container">
-                <a href="#" class="project__all_link">Смотреть все проекты</a>
+                <a href="#" class="project__all_link redText">Смотреть все проекты</a>
             </div>
         </section>
 
         <section class="section_black">
             <div class="container">
                 <h2 id="services" class="section__name">УСЛУГИ</h2>
-                <ul>
-                    <li class="service">
-                        <img class="service__img" src="photo/Rectangle 2.png" alt="карандаш и чертеж">
-                        <p class="service__text">Планировочное решение — от 2500₽/м²</p>
+                <ul class="service__wrapper ">
+                    <li class="service__item">
+                        <picture>
+                            <source media="(max-width:460px)" srcset="photo/Servicedecision_mob.png" />
+                            <source media="(max-width:1024px)" srcset="photo/Servicedecision_tab.png" />
+                            <img class="service__img" src="photo/Servicedecision.png" alt="карандаш и чертеж">
+                        </picture>
+                        <p class="service__price">от 2500₽/м²</p>
+                        <p class="service__text">Планировочное решение</p>
                     </li>
-                    <li class="service">
-                        <img class="service__img" src="photo/Rectangle 3.png" alt="палитра цветов">
-                        <p class="service__text">Дизайн-проект — от 3000₽/м²</p>
+                    <li class="service__item">
+                        <picture>
+                            <source media="(max-width:500px)" srcset="photo/Servicedesign_mob.png" />
+                            <source media="(max-width:1199px)" srcset="photo/Servicedesign_tab.png" />
+                            <img class="service__img" src="photo/Servicedesign.png" alt="палитра цветов">
+                        </picture>
+                        <p class="service__price">от 3000₽/м²</p>
+                        <p class="service__text">Дизайн-проект</p>
                     </li>
-                    <li class="service">
-                        <img class="service__img" src="photo/Rectangle 4.png" alt="человек с чертежом">
-                        <p class="service__text">Авторский надзор — от 30 000₽ в месяц</p>
+                    <li class="service__item">
+                        <picture>
+                            <source media="(max-width:500px)" srcset="photo/Servicesupervision_mob.png" />
+                            <source media="(max-width:1199px)" srcset="photo/Servisesupervision_tab.png" />
+                            <img class="service__img" src="photo/Servicesupervision.png" alt="человек с чертежом">
+                        </picture>
+                        <p class="service__price">от 30 000₽/мес</p>
+                        <p class="service__text">Авторский надзор</p>
                     </li>
-                    <li class="service">
-                        <img class="service__img" src="photo/Rectangle 5.png" alt="склад товаров">
-                        <p class="service__text">Комплектация — 5% от стоимости спецификации</p>
+                    <li class="service__item">
+                        <picture>
+                            <source media="(max-width:500px)" srcset="photo/Serviceswarehouse_mob.png" />
+                            <source media="(max-width:1199px)" srcset="photo/Serviceswarehouse_tab.png" />
+                            <img class="service__img" src="photo/Serviceswarehouse.png" alt="склад товаров">
+                        </picture>
+                        <p class="service__price">5% от стоимости</p>
+                        <p class="service__text">Комплектация</p>
                     </li>
                 </ul>
-            </div>
+
+                <div class="service__btn">
+                    <a href="#" class=" project__all_link project__all_link_inverted ">Заказать услугу</a>
+                </div>
         </section>
 
         <div class="section_full_image">
@@ -120,8 +157,8 @@
                 <p><a href="mailto:hello@mail.com" class="contact__email">hello@mail.com</a></p>
             </div>
         </section>
-    </main>
-    <footer class="footer">
+        </main>
+        <!--<footer class="footer">
         <section class="section-footer">
             <div class="nav_links_footer container">
                 <div class="nav__footer">
@@ -134,7 +171,9 @@
                 </div>
             </div>
         </section>
-    </footer>
+    </footer>-->
+
+
 </body>
 
 </html>

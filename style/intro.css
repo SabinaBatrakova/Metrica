@@ -1,0 +1,86 @@
+.hero__title {
+    width: 956px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+.hero__image {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    margin-bottom: 150px;
+    background-image: url('../photo/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+}
+
+.hero__text {
+    position: absolute;
+    max-width: 430px;
+    left: 40px;
+    bottom: 40px;
+    letter-spacing: -0.03em;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    color: white;
+    text-align: left;
+}
+
+
+@media (max-width: 1199px) {
+    .hero__title {
+        width: 802px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero__image {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 120px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero__text {
+        left: 42px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero__title {
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 31px;
+        line-height: 31.62px;
+    }
+
+    .hero__image {
+
+        height: 424px;
+        padding-left: 13px;
+        padding-right: 12px;
+        margin-bottom: 80px;
+    }
+
+    .hero__text {
+        width: 100%;
+        left: 15px;
+        bottom: 15px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero__image {
+        background-image: url('../photo/Rectangle 1 mobile.png');
+    }
+}
