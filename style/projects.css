@@ -1,3 +1,7 @@
+.section_projects {
+    padding: 150px 0;
+}
+
 .project-title {
     margin-bottom: 30px;
     font-size: 18px;
@@ -34,6 +38,10 @@
 }
 
 @media (max-width: 1199px) {
+    .section_projects {
+        padding: 120px 0;
+    }
+
     .project__img {
         object-fit: cover;
     }
@@ -54,6 +62,10 @@
 }
 
 @media (max-width: 600px) {
+    .section_projects {
+        padding: 81px 0px;
+    }
+
     .project-title {
         margin-bottom: 20px;
         font-size: 14px;
@@ -73,7 +85,7 @@
     .project__link {
         font-size: 16px;
         line-height: 21.86px;
-        margin-bottom: 80px;
+
     }
 
     .project_box {

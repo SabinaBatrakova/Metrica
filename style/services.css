@@ -2,8 +2,9 @@
     outline: 1px solid teal
 }
 
+
 .section__name {
-    padding-top: 150px;
+
     padding-left: 2px;
     padding-bottom: 34px;
     font-size: 18px;
@@ -61,6 +62,10 @@
 }
 
 @media (max-width:1199px) {
+    .section_projects {
+        padding: 120px 0;
+    }
+
     .service__wrapper {
         column-gap: 10px;
         row-gap: 80px;
@@ -71,6 +76,8 @@
     }
 
     .service__price {
+        left: 25px;
+        top: 24px;
         font-size: 20px;
         line-height: 27.32px;
         padding: 7px 27px;
@@ -83,11 +90,20 @@
 }
 
 @media (max-width:767px) {
+    .section_projects {
+        padding: 77px 0;
+    }
+
+    .section__name {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
     .service__wrapper {
         flex-direction: column;
         width: 100%;
         row-gap: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 47px;
     }
 
     .service__item {
@@ -106,7 +122,7 @@
     .service__price {
         font-size: 14px;
         line-height: 19.12px;
-        padding: 6px 26px;
-
+        padding: 6px 24px;
     }
+
 }

@@ -12,11 +12,10 @@
     position: relative;
     width: 1150px;
     height: 500px;
-    margin-bottom: 150px;
     background-image: url('../photo/Rectangle 1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
+    background-position: center;
 
 }
 
@@ -44,9 +43,8 @@
     .hero__image {
         width: 100%;
         height: 550px;
-        margin-bottom: 120px;
         background-size: cover;
-        background-position: center;
+        background-position: 50%;
     }
 
     .hero__text {
@@ -64,23 +62,34 @@
     }
 
     .hero__image {
-
+        background-image: url('../photo/Rectangle 1 mobile.png');
         height: 424px;
         padding-left: 13px;
         padding-right: 12px;
-        margin-bottom: 80px;
+
     }
 
     .hero__text {
         width: 100%;
         left: 15px;
-        bottom: 15px;
+        bottom: 22px;
         font-size: 16px;
+        line-height: 21.86px;
     }
 }
 
 @media (max-width: 400px) {
+    .hero__title {
+        max-width: 337px;
+    }
+
+    .hero__text {
+        max-width: 312px;
+    }
+
     .hero__image {
+        height: 310px;
         background-image: url('../photo/Rectangle 1 mobile.png');
+
     }
 }

@@ -1,51 +1,95 @@
-.title-wrapper {
-    width: 90px;
-    position: relative;
+.section-contacts {
+    padding: 150px 0;
 }
 
-.title-wrapper:before {
-    content: '';
-    bottom: 25px;
-    margin-bottom: 12px;
-    display: block;
-    position: absolute;
-    width: 13px;
-    height: 22px;
-    background-image: url("../photo/Vector.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+.contacts__item {
+    margin-top: 25px;
+    display: flex;
+}
+
+.contact__tel,
+.contact__email {
+    width: 50%;
 }
 
 .contact__tel {
     display: block;
-    margin-bottom: 30px;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -0.02em;
-    color: #121212;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.contact__email {
-    display: block;
-    margin-bottom: 162px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
     color: #121212;
     text-decoration: none;
     cursor: pointer;
+}
 
+.contact__email {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .contact__email:hover {
     text-decoration: underline;
-    color: grey;
+    opacity: 50%;
 }
 
 .contact__tel:hover {
     text-decoration: underline;
-    color: grey;
+    opacity: 50%;
+}
+
+.contact__tel:before,
+.contact__email:before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact__tel:before {
+    background-image: url("../photo/phone.png");
+}
+
+.contact__email:before {
+    background-image: url("../photo/email.png");
+}
+
+@media (max-width:1199px) {
+    .section-contacts {
+        padding: 120px 0;
+    }
+
+    .contact__tel,
+    .contact__email {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width:797px) {
+    .section-contacts {
+        padding: 80px 0;
+    }
+
+    .contacts__item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact__tel,
+    .contact__email {
+        width: 100%;
+        font-size: 35px;
+        line-height: 45.62px;
+        letter-spacing: -0.03em;
+    }
 }
