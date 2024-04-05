@@ -15,32 +15,77 @@
 </head>
 
 <body>
-    <!--<header class="header">
-        <section class="nav-section">
-            <div class="nav-container container   ">
+    <header class="header">
+        <section class="section-nav">
+            <div class="header-inner container">
                 <a href="#" class="logo-link">
-                    <img class="logo" src="photo/Метрика.png" alt="логотип компании Метрика"></a>
-                <div class="nav">
-                    <a href="#about us" class="nav__link">О НАС</a>
-                    <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
-                    <a href="#services" class="nav__link">УСЛУГИ</a>
-                    <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+                    <picture>
+                        <source media="(max-width:500px)" srcset="photo/logomobail.png" />
+
+                        <img class="logo" src="photo/Метрика.png" alt="логотип компании Метрика">
+                </a>
+                </picture>
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li><a href="#about us" class="nav__link">О НАС</a></li>
+                        <li><a href="#projects" class="nav__link">ПРОЕКТЫ</a></li>
+                        <li><a href="#services" class="nav__link">УСЛУГИ</a></li>
+                        <li><a href="#contacts" class="nav__link">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <button class="js-burger-btn burger-btn"></button>
+            </div>
+
+            <div class="js-burger burger">
+                <div class="js-burger__content burger__content">
+                    <div class="burger-logo">
+                    </div>
+                    <a href="#" class="burger-logo-link">
+                        <img class="burger-logo" src="photo/Метрика.png" alt="логотип компании Метрика"></a>
+                    <nav class="burger-nav">
+                        <ul class="burger__nav-list">
+                            <li><a href="#about us" class="burger-nav__link">О НАС</a></li>
+                            <li><a href="#projects" class="burger-nav__link">ПРОЕКТЫ</a></li>
+                            <li><a href="#services" class="burger-nav__link">УСЛУГИ</a></li>
+                            <li><a href="#contacts" class="burger-nav__link">КОНТАКТЫ</a></li>
+                        </ul>
+                    </nav>
+                    <p class="burger__contacts-title">для связи:</p>
+                    <ul class="burger__contacts">
+                        <li><a href="tel:+79358954535" class="burger__contact-tel">+7 935 895-45-35</a></li>
+                        <li><a href="mailto:hello@mail.com" class="burger__contact-email">hello@mail.com</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
     </header>
--->
-    <class="main">
+
+
+    <main>
+        <div class="js-popup popup">
+            <div class="js-popup__content popup__content">
+                <button class="js-popup__close-btn popup__close-btn"></button>
+                <div class="order__title">Заказать услугу</div>
+                <div class="order__subtitle">Заполните форму, мы свяжемся с вами в течение суток</div>
+                <div class="popup-input">
+                    <input class="input" type="text" placeholder="Имя">
+                    <input class="input" type="email" placeholder="Электронная почта">
+                    <input class="input" type="tel" placeholder="Номер телефона">
+                </div>
+                <button class="full-width-btn_small full__width-btn_inverted">Отправить</button>
+            </div>
+        </div>
+
         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">Современные и стильные интерьеры для комфортной жизни</h1>
                 <div class="hero__image">
-                    <!--<img src="photo/Rectangle 1.png" alt="Вид: кресло,цветок,стол">-->
                     <p class="hero__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
                         разработкой и
                         реализацией дизайн-проектов</p>
                 </div>
         </section>
+
         <section class="info_company">
             <div class="description container">
                 <h2 id="about us" class="description-title">О НАС</h2>
@@ -92,7 +137,7 @@
                 </ul>
             </div>
             <div class="section_btn container">
-                <a href="#" class="project__all_link redText">Смотреть все проекты</a>
+                <a href="#" class="full__width-btn">Смотреть все проекты</a>
             </div>
         </section>
 
@@ -138,11 +183,11 @@
                     </li>
                 </ul>
 
-                <div class="service__btn">
-                    <a href="#" class=" project__all_link project__all_link_inverted ">Заказать услугу</a>
-                </div>
-            </div>
+                <button class="js-btn full__width-btn full__width-btn_inverted">Заказать услугу
+                </button>
+
         </section>
+        </div>
 
         <section class="section_reviews">
             <div class="container">
@@ -190,7 +235,7 @@
             </div>
         </section>
 
-        <section class="gallery-section">
+        <section class="section-gallery">
             <div class="gallery">
                 <div class="gallery__title-wrapper">
                     <div class="container">
@@ -235,8 +280,6 @@
             </div>
         </section>
 
-
-
         <section class="section-contacts">
             <div class="container">
                 <h2 id="contacts" class="title">КОНТАКТЫ</h2>
@@ -247,23 +290,25 @@
             </div>
         </section>
         </section>
-        </main>
-        <!--<footer class="footer">
+    </main>
+
+    <footer class="footer">
         <section class="section-footer">
-            <div class="nav_links_footer container">   
+            <div class="nav_links_footer">
                 <div class="nav__footer">
                     <a href="#about us" class="nav__footer_link">О НАС</a>
                     <a href="#projects" class="nav__footer_link">ПРОЕКТЫ</a>
                     <a href="#services" class="nav__footer_link">УСЛУГИ</a>
                     <a href="#contacts" class="nav__footer_link">КОНТАКТЫ</a>
-
-                    <p class="nav__footer_text">студия дизайна интерьера Метрика — 2023</p>
                 </div>
+                <p class="nav__footer_text">студия дизайна интерьера Метрика — 2023</p>
             </div>
         </section>
-    </footer>-->
+    </footer>
 
-        <script src="gallery.js"></script>
+    <script src="burger.js"></script>
+    <script src="gallery.js"></script>
+    <script src="popup.js"></script>
 </body>
 
 </html>

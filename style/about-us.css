@@ -3,7 +3,6 @@
 }
 
 .description {
-    /*height: 518px;*/
     letter-spacing: -0.03em;
 }
 
@@ -57,11 +56,9 @@ description-link:hover {
         margin-bottom: 30px;
     }
 
-    .description__link {}
 }
 
 @media (max-width: 767px) {
-
     .info_company {
         padding-top: 70px;
         padding-bottom: 0px;
@@ -70,7 +67,6 @@ description-link:hover {
     .description-title {
         margin-bottom: 20px;
         font-size: 14px;
-
     }
 
     .description__text {
@@ -84,6 +80,5 @@ description-link:hover {
         padding: 15px 29px;
         font-size: 16px;
         letter-spacing: -0.48px;
-
     }
 }

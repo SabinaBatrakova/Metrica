@@ -3,6 +3,9 @@
 @import "/style/about-us.css";
 @import "/style/projects.css";
 @import "/style/services.css";
+@import "/style/popup.css";
+@import "/style/buttons.css";
+@import "/style/order.css";
 @import "/style/reviews.css";
 @import "/style/gallery.css";
 @import "/style/contacts.css";
@@ -22,6 +25,15 @@ body {
     background-color: white;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.body_fixed {
+    overflow: hidden;
 }
 
 .container {
@@ -48,26 +60,6 @@ body {
     }
 }
 
-
-.project__all_link {
-    display: block;
-    width: 100%;
-    padding-top: 56px;
-    padding-bottom: 56px;
-    border: 1px solid #AD1818;
-    text-align: center;
-    font-size: 30px;
-    line-height: 40.98px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
-}
-
-
-.project__all_link:hover {
-    color: white;
-    background-color: #AD1818;
-}
-
 .section_black {
     width: 100%;
     padding: 150px 0;
@@ -76,21 +68,12 @@ body {
 
 @media (max-width:1199px) {
     .section_black {
-        padding: 120px 0;
+        padding: 129px 0;
     }
 }
 
 @media (max-width:767px) {
     .section_black {
-        padding: 79px 0;
+        padding: 84px 0;
     }
-
-    .project__all_link {
-
-        padding: 37px 0;
-        font-size: 22px;
-        line-height: 30.05px;
-
-    }
-
 }

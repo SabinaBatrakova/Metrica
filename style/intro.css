@@ -42,7 +42,7 @@
 
     .hero__image {
         width: 100%;
-        height: 550px;
+        height: 400px;
         background-size: cover;
         background-position: 50%;
     }
@@ -56,6 +56,7 @@
 @media (max-width: 767px) {
     .hero__title {
         width: 100%;
+
         margin-bottom: 25px;
         font-size: 31px;
         line-height: 31.62px;
