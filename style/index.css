@@ -1,15 +1,15 @@
-@import "/style/header.css";
-@import "/style/intro.css";
-@import "/style/about-us.css";
-@import "/style/projects.css";
-@import "/style/services.css";
-@import "/style/popup.css";
-@import "/style/buttons.css";
-@import "/style/order.css";
-@import "/style/reviews.css";
-@import "/style/gallery.css";
-@import "/style/contacts.css";
-@import "/style/footer.css";
+@import "../style/header.css";
+@import "../style/intro.css";
+@import "../style/about-us.css";
+@import "../style/projects.css";
+@import "../style/services.css";
+@import "../style/popup.css";
+@import "../style/buttons.css";
+@import "../style/order.css";
+@import "../style/reviews.css";
+@import "../style/gallery.css";
+@import "../style/contacts.css";
+@import "../style/footer.css";
 
 html {
     scroll-behavior: smooth;
