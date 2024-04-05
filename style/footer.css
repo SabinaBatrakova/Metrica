@@ -41,15 +41,12 @@
     color: #FFFFFF;
 }
 
-
-
 @media (max-width: 767px) {
     .section-footer {
         height: 131px;
     }
 
     .nav_links_footer {
-
         max-width: 281px;
     }
 
@@ -60,8 +57,6 @@
     }
 
     .nav__footer {
-
-
         margin-bottom: 41px;
     }
 

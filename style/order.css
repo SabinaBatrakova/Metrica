@@ -26,7 +26,6 @@
     border-bottom: 1px solid #000000;
     opacity: 50%;
     color: black;
-
 }
 
 .input:last-child {
@@ -45,7 +44,6 @@
         /*max-width: 209px;*/
         font-size: 14px;
         line-height: 19.12px;
-
     }
 
     .popup-input {

@@ -24,7 +24,6 @@
 }
 
 .description__link {
-
     border: 1px solid #AD1818;
     background-color: #AD1818;
     width: 255px;
@@ -55,7 +54,6 @@ description-link:hover {
         line-height: 47.81px;
         margin-bottom: 30px;
     }
-
 }
 
 @media (max-width: 767px) {

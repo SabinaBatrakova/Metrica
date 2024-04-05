@@ -16,7 +16,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 .hero__text {
@@ -31,7 +30,6 @@
     color: white;
     text-align: left;
 }
-
 
 @media (max-width: 1199px) {
     .hero__title {
@@ -56,7 +54,6 @@
 @media (max-width: 767px) {
     .hero__title {
         width: 100%;
-
         margin-bottom: 25px;
         font-size: 31px;
         line-height: 31.62px;
@@ -91,6 +88,5 @@
     .hero__image {
         height: 310px;
         background-image: url('../photo/Rectangle 1 mobile.png');
-
     }
 }
