@@ -127,7 +127,7 @@ header {
 
     .burger-btn {
         display: block;
-        background-image: url("../photo/burger.svg");
+        background-image: url("../photo/burger.png");
         background-repeat: no-repeat;
         border: none;
         right: 15px;
